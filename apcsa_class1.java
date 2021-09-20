@@ -14,12 +14,16 @@ public class apcsa_class1{
         System.out.println("The solutions for " + a + " x^2 + " + b + "x +" + c +" are " + r1 + " and " + r2);
     }
     public static void slope(double x1 , double x2 , double y1 , double y2){
+        // (x1 , y1) are the coordinate of the first point
+        // (x2 , y2) are the coordinate of the second point 
         System.out.println("SLOPE FORMULA");
         double slp = (y2 - y1 ) / (x2 - x1);
         // slope is the slope of the given linear equation
         System.out.println("A line connecting the points (" + x1 +", " + y1 +") and (" + x2 +", " +y2 +") has a slope of "+ slp);
     }
     public static void mid_point(double x1 , double x2 , double y1 , double y2){
+        // (x1 , y1) are the coordinate of the first point
+        // (x2 , y2) are the coordinate of the second point
         System.out.println("MIDPOINT FORMULA");
         double mid_x = (x2 - x1) / 2 + x1;
         // mid_x is the x coordinate of the midpoint
@@ -41,7 +45,7 @@ public class apcsa_class1{
         // r is the rate of change between terms
         // k is the number of cases we will calculate sum
         double sum = g1 * (1 - Math.pow(r , k)) / (1 - r);
-        // the "sum" is the sum of the geometric series 
+        // the "sum" is the sum of the geometric series
         System.out.println("SUM OF AN GEOMETRIC SERIES");
         System.out.println("The sum of the first " + (int)k + " terms of an geometric series that starts with " + g1 + " and increases by a rate of" + r + "is " + sum);
     }
