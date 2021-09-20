@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.util.*;
+//author: Charles Zuo
 
 public class apcsa_class1{
     public static void quadratic_formula(int a , int b , int c){
@@ -15,7 +16,7 @@ public class apcsa_class1{
     }
     public static void slope(double x1 , double x2 , double y1 , double y2){
         // (x1 , y1) are the coordinate of the first point
-        // (x2 , y2) are the coordinate of the second point 
+        // (x2 , y2) are the coordinate of the second point
         System.out.println("SLOPE FORMULA");
         double slp = (y2 - y1 ) / (x2 - x1);
         // slope is the slope of the given linear equation
