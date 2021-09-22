@@ -30,7 +30,7 @@ public class apcsa_class1{
         // mid_x is the x coordinate of the midpoint
         double mid_y = (y2 - y1) / 2 + y1;
         // mid_y is the y coordinate of the midpoint
-        System.out.println("The midpoint between ("+ x1 +", " + y1 +") and (" + x2 +", " +y2 +")" + "is " + "(" + mid_x + ", "+mid_y + ")");
+        System.out.println("The midpoint between ("+ x1 +", " + y1 +") and (" + x2 +", " +y2 +") " + "is " + "(" + mid_x + ", "+mid_y + ")");
     }
     public static void arithmetic(double f , double diff , double k){
         // f is the first term of the arithmetic series
@@ -39,7 +39,7 @@ public class apcsa_class1{
         double sum = ((f + f + (k - 1) * diff) * k / 2);
         // the "sum" is the sum of the arithmetic series
         System.out.println("SUM OF AN ARITHMETIC SERIES");
-        System.out.println("The sum of the first 5 terms of an arithmetic series that starts with " + f + " and increases by " + diff + "is " + sum);
+        System.out.println("The sum of the first 5 terms of an arithmetic series that starts with " + f + " and increases by " + diff + " is " + sum);
     }
     public static void geometric(double g1 , double r , double k){
         // g1 is the first term of the geometric series
@@ -48,7 +48,7 @@ public class apcsa_class1{
         double sum = g1 * (1 - Math.pow(r , k)) / (1 - r);
         // the "sum" is the sum of the geometric series
         System.out.println("SUM OF AN GEOMETRIC SERIES");
-        System.out.println("The sum of the first " + (int)k + " terms of an geometric series that starts with " + g1 + " and increases by a rate of" + r + "is " + sum);
+        System.out.println("The sum of the first " + (int)k + " terms of an geometric series that starts with " + g1 + " and increases by a rate of " + r + " is " + sum);
     }
     public static void main(String[] args){
         // quadratic formula
